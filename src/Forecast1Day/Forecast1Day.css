@@ -1,0 +1,21 @@
+
+.Forecast {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    text-align: center;
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+.Card{
+
+    background-color: #f8f8ff4f;
+
+}
+
+
+
