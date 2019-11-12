@@ -7,7 +7,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                Your code here
+                <h1>This week weather</h1>
                 <Forecast1Day />
             </div>
         );

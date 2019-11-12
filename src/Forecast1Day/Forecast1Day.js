@@ -29,9 +29,9 @@ class Forecast1Day extends Component {
                     {this.state.forecast.map((forecast, index) => {
                         return <div className="Forecast">
                             <div className="Card">
-                                <h3 >{weekdays[forecast.day]} </h3>
+                                <h2 >{weekdays[forecast.day]} </h2>
                                 <p ><img src={`/icons/${forecast.icon}.png`} alt="weather"/></p>
-                                <h5>{forecast.description}</h5>
+                                <h4>{forecast.description}</h4>
                                 <p >Temp: {forecast.temperature}°</p>
                             </div>
                         </div>
